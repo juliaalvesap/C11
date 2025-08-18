@@ -1,0 +1,2 @@
+Número sorteado: 4
+O vencedor do sorteio é: Elisa
