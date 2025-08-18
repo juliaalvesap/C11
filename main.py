@@ -1,7 +1,7 @@
 import numpy as np
 
 def main():
-    participantes = ["Ana", "Bruno", "Carla", "Daniel", "Elisa"]
+    participantes = ["Anna", "Bianca", "Julia", "Mavi", "Mary"]
 
     # Sorteia um índice válido na lista
     indice_sorteado = np.random.randint(0, len(participantes))
