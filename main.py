@@ -7,15 +7,19 @@ def main():
     indice_sorteado = np.random.randint(0, len(participantes))
 
     # Usa o índice para pegar o vencedor
+
     vencedora = participantes[indice_sorteado]
 
     print(f"Número sorteado: {indice_sorteado}")
     print(f"A vencedora do sorteio é: {vencedora}")
 
+
     # Gera o arquivo de texto com o resultado
     with open("resultado.txt", "w", encoding="utf-8") as f:
         f.write(f"Número sorteado: {indice_sorteado}\n")
+
         f.write(f"A vencedora do sorteio é: {vencedora}\n")
+
 
 if __name__ == "__main__":
     main()
