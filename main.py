@@ -8,17 +8,17 @@ def main():
 
     # Usa o índice para pegar o vencedor
 
-    winner = participantes[indice_sorteado]
+    vencedora = participantes[indice_sorteado]
 
     print(f"Número sorteado: {indice_sorteado}")
-    print(f"O vencedor do sorteio é: {winner}")
+    print(f"A vencedora do sorteio é: {vencedora}")
 
 
     # Gera o arquivo de texto com o resultado
     with open("resultado.txt", "w", encoding="utf-8") as f:
         f.write(f"Número sorteado: {indice_sorteado}\n")
 
-        f.write(f"O vencedor do sorteio é: {winner}\n")
+        f.write(f"A vencedora do sorteio é: {vencedora}\n")
 
 
 if __name__ == "__main__":
