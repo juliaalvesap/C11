@@ -9,7 +9,7 @@ class TestSorteio(unittest.TestCase):
         # Deve retornar a própria pessoa como vencedora
         participantes = ["Ana"]
         indice, vencedor = sortear_participante(participantes)
-        self.assertEqual(vencedor, "Anna")
+        self.assertEqual(vencedor, "Ana")
     #2
     def test_dois_participantes_um_vencedor(self):
         # Deve sortear apenas 1 vencedor entre 2 participantes
